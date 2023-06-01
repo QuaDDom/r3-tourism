@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mapa de Rio Tercero</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="logo">
+            <a href="#">
+              <img src="./images/logo.png" alt="rio-tercero" />
+            </a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Turismo</a></li>
+            <li><a href="map.html">Mapa Ciudad</a></li>
+            <li><a href="#">Hoteles</a></li>
+            <label for="check" class="closeMenu">
+              <i class="fas fa-times"></i>
+            </label>
+          </span>
+          <label for="check" class="openMenu">
+            <i class="fas fa-bars"></i>
+          </label>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Mapa de Río Tercero, Córdoba, Argentina</h1>
+      <div id="map"></div>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap"></script>
+  </body>
+</html>

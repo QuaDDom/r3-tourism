@@ -13,6 +13,11 @@ body {
   background: #ffffff;
 }
 
+main {
+  margin-top: 100px;
+  padding: 10px 100px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -116,4 +121,34 @@ body {
   #check:checked ~ .menu {
     right: 0;
   }
+}
+
+.title {
+  font-size: 2.5em;
+  display: block;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: #606060;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #606060;
+  font-weight: 300;
+  width: 1200px;
+}
+
+#map {
+  margin-top: 30px;
+  height: 700px;
+  width: 100%;
 }
