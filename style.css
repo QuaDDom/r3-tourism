@@ -18,7 +18,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 99;
   background-color: var(--color2);
   display: flex;
   justify-content: space-between;
@@ -86,4 +86,34 @@ body {
 
 #check {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background: var(--color2);
+    transition: 0.5s;
+  }
+  .menu li {
+    margin-top: 40px;
+  }
+  .menu li a {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  .openMenu,
+  .closeMenu {
+    display: block;
+  }
+  #check:checked ~ .menu {
+    right: 0;
+  }
 }
