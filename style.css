@@ -6,3 +6,61 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  --color1: #fff;
+  --color2: #f4f4f4;
+  background: #ffffff;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: var(--color2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 12px 100px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  padding-left: 30px;
+}
+
+.menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+  position: relative;
+  font-weight: 500;
+  font-size: 1.05em;
+}
+
+.menu li a:hover::before {
+  width: 100%;
+}
+
+.menu li a::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1.7px;
+  transition: 0.3s;
+  background: #000;
+  bottom: 1px;
+}
