@@ -160,3 +160,16 @@ main {
 .carrousel .imageContainer img {
   width: 50%;
 }
+
+footer .footerContent {
+  border-top: #606060 1px solid;
+  margin: 0 100px;
+  margin-top: 150px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #606060;
+  font-size: 0.9em;
+}
