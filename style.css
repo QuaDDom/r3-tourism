@@ -144,11 +144,19 @@ main {
   font-size: 1.2em;
   color: #606060;
   font-weight: 300;
-  width: 1200px;
+  width: 80vw;
 }
 
 #map {
   margin-top: 30px;
   height: 700px;
   width: 100%;
+}
+
+.carrousel .imageContainer {
+  padding: 50px 0;
+}
+
+.carrousel .imageContainer img {
+  width: 50%;
 }

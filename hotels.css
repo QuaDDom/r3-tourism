@@ -10,5 +10,14 @@
   font-size: 1.2em;
   color: #606060;
   font-weight: 300;
-  width: 1200px;
+  width: 80vw;
+}
+
+.hotelImages {
+  padding: 10px 0;
+}
+
+.hotelImages img {
+  width: auto;
+  height: 30vh;
 }
