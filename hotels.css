@@ -1,0 +1,14 @@
+.hotelTitle {
+  padding-bottom: 30px;
+}
+
+.hotelDescription {
+  padding: 30px 0;
+}
+
+.hotelDescription p {
+  font-size: 1.2em;
+  color: #606060;
+  font-weight: 300;
+  width: 1200px;
+}
