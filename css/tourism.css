@@ -1,0 +1,71 @@
+.sitesContainer {
+  padding-top: 50px;
+}
+
+.sitesContainer .site {
+  height: 80vh;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+}
+
+.site h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.site p {
+  color: #606060;
+  margin-bottom: 30px;
+}
+
+.site img {
+  width: 50vw;
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.site button {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: transparent;
+  border: 3px solid #000;
+  color: #000;
+  font-size: 1.1em;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#formButton {
+  width: 20vw;
+  height: 60px;
+  font-size: 1.2em;
+}
+
+.question {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 3em;
+  padding-bottom: 100px;
+}
+
+.site button:hover {
+  background: #000;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.toFormContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: #606060 1px solid;
+}

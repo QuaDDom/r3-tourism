@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/tourism.css" />
     <title>Turismo General</title>
   </head>
   <body>
@@ -32,32 +41,72 @@
         </ul>
       </nav>
     </header>
-    <div>
+    <main>
       <h2 class="title">
         Algunas de las atracciones turísticas más populares en Río Tercero
       </h2>
-      <div class="tourismSitesContainer">
+      <div class="sitesContainer">
+        <div class="site">
+          <h3>Museo Enrique Gandolfo</h3>
+          <p class="location">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            Av. Perón Balbín, Río Tercero 5850 Argentina
+          </p>
+          <img src="./images/tourism/enriquegandolfo.jpg" alt="rio-tercero" />
+          <button>Ver más</button>
+        </div>
         <div class="site">
           <h3>Balneario Municipal</h3>
-          <img src="./images/" alt="rio-tercero" />
+          <p class="location">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            Av. Perón Balbín, Río Tercero 5850 Argentina
+          </p>
+          <img src="./images/tourism/balneario.jpg" alt="rio-tercero" />
           <button>Ver más</button>
         </div>
         <div class="site">
           <h3>La Casa de la Cultura</h3>
-          <img src="./images/" alt="rio-tercero" />
-          <button>Ver más</button>
-        </div>
-        <div class="site">
-          <h3>Museo Estafeta Postal Lastenia</h3>
-          <img src="./images/" alt="rio-tercero" />
+          <p class="location">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            Av. Perón Balbín, Río Tercero 5850 Argentina
+          </p>
+          <img src="./images/tourism/casacultura.jpg" alt="rio-tercero" />
           <button>Ver más</button>
         </div>
         <div class="site">
           <h3>Iglesia Nuestra Señora de Lourdes</h3>
-          <img src="./images/" alt="rio-tercero" />
+          <p class="location">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            Av. Perón Balbín, Río Tercero 5850 Argentina
+          </p>
+          <img src="./images/tourism/iglesia.jpg" alt="rio-tercero" />
+          <button>Ver más</button>
+        </div>
+        <div class="site">
+          <h3>Museo Estafeta Postal Lastenia</h3>
+          <p class="location">
+            <i class="fa-sharp fa-solid fa-location-dot"></i>
+            Av. Perón Balbín, Río Tercero 5850 Argentina
+          </p>
+          <img src="./images/tourism/estafeta.jpeg" alt="rio-tercero" />
           <button>Ver más</button>
         </div>
       </div>
-    </div>
+      <div class="site">
+        <div class="toFormContainer">
+          <h2 class="question">
+            ¿Eres de Rio Tercero y tu sitio no está aquí?
+          </h2>
+          <button id="formButton">Rellena este formulario</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footerContent">
+        <p>&copy; 2023 Turismo Río Tercero. Todos los derechos reservados.</p>
+        <p>Desarrollado por Mateo Quadrelli Leal</p>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>
