@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 73vh;
   width: 100%;
 }
 
@@ -13,16 +13,21 @@ form {
   border-radius: 20px;
 }
 
+label {
+  font-size: 1.05em;
+}
+
 input[type="text"],
 textarea {
   margin: 10px 0;
   padding: 15px;
-  background: #ccc;
+  background: #dadada;
   border: none;
   outline: none;
   border-radius: 4px;
   display: block;
   width: 30vw;
+  font-size: 1.05em;
 }
 
 input[type="submit"] {
