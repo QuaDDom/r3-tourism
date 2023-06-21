@@ -24,4 +24,6 @@ function redirect() {
   window.open("/form.html", "_blank");
 }
 
-formButton.addEventListener("click", redirect);
+if (formButton) {
+  formButton.addEventListener("click", redirect);
+}
