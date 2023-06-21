@@ -15,3 +15,13 @@ function initMap() {
     title: "Río Tercero, Córdoba, Argentina",
   });
 }
+
+const formButton = document.querySelector("#formButton");
+
+function redirect() {
+  let currentURL = window.location.href;
+  let newURL = currentURL + "/form.html";
+  window.open("/form.html", "_blank");
+}
+
+formButton.addEventListener("click", redirect);
