@@ -1,5 +1,19 @@
+.hotelsContainer {
+  padding-top: 50px;
+}
+
 .hotelTitle {
   padding-bottom: 30px;
+}
+
+.hotelTitle h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.hotelTitle p {
+  color: #606060;
+  margin-bottom: 30px;
 }
 
 .hotelDescription {
