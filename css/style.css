@@ -153,11 +153,11 @@ main {
   width: 100%;
 }
 
-.carrousel .imageContainer {
+.carrousel .videoContainer {
   padding: 50px 0;
 }
 
-.carrousel .imageContainer img {
+.carrousel .videoContainer video {
   width: 50%;
 }
 
