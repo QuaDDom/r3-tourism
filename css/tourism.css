@@ -41,6 +41,18 @@
   cursor: pointer;
 }
 
+.site button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
 #formButton {
   width: 20vw;
   height: 60px;
@@ -58,6 +70,10 @@
   background: #000;
   color: #fff;
   transform: translateY(-5px);
+}
+
+.site button:hover a {
+  color: #fff;
 }
 
 .toFormContainer {
