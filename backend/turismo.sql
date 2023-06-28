@@ -35,6 +35,17 @@ CREATE TABLE `sites` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Estructura de tabla para la tabla hotels
+--
+
+CREATE TABLE `hotels` (
+  `idhotel` int(11) NOT NULL,
+  `title_hotel` varchar(100) DEFAULT NULL,
+  `ubi_hotel` varchar(230) DEFAULT NULL,
+  `des_hotel` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -45,6 +56,12 @@ ALTER TABLE `sites`
   ADD PRIMARY KEY (`idsite`);
 
 --
+-- Indices de la tabla `hotels`
+--
+ALTER TABLE `hotels`
+  ADD PRIMARY KEY (`idhotel`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -53,6 +70,13 @@ ALTER TABLE `sites`
 --
 ALTER TABLE `sites`
   MODIFY `idsite` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+COMMIT;
+
+--
+-- AUTO_INCREMENT de la tabla `hotels`
+--
+ALTER TABLE `hotels`
+  MODIFY `idhotel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
