@@ -21,7 +21,7 @@ const formButton = document.querySelector("#formButton");
 function redirect() {
   let currentURL = window.location.href;
   let newURL = currentURL + "/form.html";
-  window.open("/form.html", "_blank");
+  window.open("/frontend/form.html", "_blank");
 }
 
 if (formButton) {
