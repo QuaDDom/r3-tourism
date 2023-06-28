@@ -15,7 +15,7 @@ conexion.connect(function(err) {
     }
     console.log('Conectado con el identificador ' + conexion.threadId);
 });
-conexion.query('SELECT * FROM empleados', function (error, results, fields) {
+conexion.query('SELECT * FROM turismo', function (error, results, fields) {
     if (error)
         throw error;
 
