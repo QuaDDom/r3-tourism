@@ -1,5 +1,5 @@
 
-
+//Conexión con el servidor de MySQL
 var mysql = require('mysql');
 var conexion= mysql.createConnection({
     host : 'localhost',
