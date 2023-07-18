@@ -22,4 +22,3 @@ Si deseas contribuir a este proyecto, te invitamos a que realices los siguientes
 5. Envía un pull request desde tu repositorio fork a este repositorio.
 
 
-![RioTercero](https://porigualmas.org/wp-content/uploads/2021/08/ec6bda1c5b4c382686362cf17fd3ee44.png)
